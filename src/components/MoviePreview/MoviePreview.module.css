@@ -1,2 +1,31 @@
 .movieCard {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    column-gap: 20px;
+    width: 30%;
+    background-color: blue;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+
 }
+
+.movieInfo {
+    display: flex;
+    text-align: center;
+}
+
+.movieImage {
+    display: flex;
+}
+
+.star {
+    font-size: 20px;
+    margin: 0 2px;
+    color: #ddd;
+  }
+
+  .pink {
+    color: pink;
+  }
